@@ -1,0 +1,72 @@
+{
+  "_note": "Representative replay. Task IDs and prompts redacted. Reproduces the cost figures shown on riftroot.com#demo.",
+  "summary": {
+    "cost_actual_usd": 0.0133,
+    "baseline_all_opus_usd": 0.642,
+    "savings_multiplier": 48.3,
+    "tokens_reused": 5610,
+    "tokens_billed": 1850,
+    "batch_share": 0.60,
+    "first_pass_success": 5,
+    "first_pass_total": 5,
+    "opus_selections": 0,
+    "cheap_tier_selections": 3
+  },
+  "events": [
+    {
+      "task_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "task_class": "code-review",
+      "arm_selected": "gemini-2.5-flash",
+      "tier": "cheap",
+      "tokens_in": 1420,
+      "tokens_out": 310,
+      "cost_usd": 0.0004,
+      "reward": 0.87,
+      "first_pass": true
+    },
+    {
+      "task_id": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+      "task_class": "doc-summarize",
+      "arm_selected": "qwen-local-7b",
+      "tier": "local",
+      "tokens_in": 980,
+      "tokens_out": 220,
+      "cost_usd": 0.0000,
+      "reward": 0.83,
+      "first_pass": true
+    },
+    {
+      "task_id": "c3d4e5f6-a7b8-9012-cdef-123456789012",
+      "task_class": "structured-extraction",
+      "arm_selected": "deepseek-v3",
+      "tier": "cheap",
+      "tokens_in": 1180,
+      "tokens_out": 290,
+      "cost_usd": 0.0006,
+      "reward": 0.85,
+      "first_pass": true
+    },
+    {
+      "task_id": "d4e5f6a7-b8c9-0123-def0-234567890123",
+      "task_class": "reasoning-plan",
+      "arm_selected": "claude-sonnet-4-6",
+      "tier": "mid",
+      "tokens_in": 1560,
+      "tokens_out": 480,
+      "cost_usd": 0.0118,
+      "reward": 0.94,
+      "first_pass": true
+    },
+    {
+      "task_id": "e5f6a7b8-c9d0-1234-ef01-345678901234",
+      "task_class": "validation-check",
+      "arm_selected": "claude-sonnet-4-6",
+      "tier": "mid",
+      "tokens_in": 470,
+      "tokens_out": 100,
+      "cost_usd": 0.0005,
+      "reward": 0.88,
+      "first_pass": true
+    }
+  ]
+}
