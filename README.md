@@ -82,7 +82,7 @@ That trajectory is the convergence graph that makes the system's intelligence le
 
 ## Status
 
-**Active development · Private implementation**
+**Active development · Private implementation · Status as of 2026-04**
 
 Core routing intelligence and execution mesh are operational. This repository documents architecture and design decisions. Implementation is closed-source.
 
@@ -92,17 +92,10 @@ The system is not yet in general availability. Architectural documentation is pu
 
 Rift Root LLC is bootstrapped by design. Cash dilutes; resources compound.
 
-Compute credits, inference budgets across multi-vendor model arms, hardware diversity (silicon variety enriches MAB convergence data), storage, egress allowance, and design partners with real workloads — anything that shortens the loop between hypothesis and validated output. The resulting workloads stay where they run.
-
-Targeted programs:
-
-- **AWS Activate** — GPU and inference compute for worker fleet and MAB training workloads
-- **Google for Startups** — Vertex AI inference credits for multi-vendor model arm coverage
-- **Cloudflare for Startups** — Workers, Durable Objects, and KV capacity for the control plane and perimeter
-- **NVIDIA Inception** — Hardware access and GPU compute for high-density execution tiers
+Compute credits, inference credits across multi-vendor model arms, hardware diversity (silicon variety enriches MAB convergence data), storage, egress allowance, and design partners with real workloads — anything that shortens the loop between hypothesis and validated output. The resulting workloads stay where they run.
 
 Developer programs, infrastructure credit programs, and hardware access inquiries: [adam@riftroot.com](mailto:adam@riftroot.com)
 
 ## Contact
 
-[adam@riftroot.com](mailto:adam@riftroot.com) · [riftroot.com/erebus](https://riftroot.com/erebus)
+[adam@riftroot.com](mailto:adam@riftroot.com) · [riftroot.com/#erebus](https://riftroot.com/#erebus)
