@@ -23,7 +23,8 @@ graph TD
     end
 
     subgraph Control_Plane[Control Plane]
-        C1[Task Store\nDurable Object]
+        C1[Task Store
+Durable Object]
         C2[Scheduler]
         C3[Worker Registry]
         C4[Coordinator]
@@ -38,7 +39,8 @@ graph TD
     end
 
     subgraph Execution
-        E1[Worker Fleet\nFly.io]
+        E1[Worker Fleet
+Fly.io]
         E2[MicroVM Sandbox]
         E3[Task Handlers]
         E4[Circuit Breaker]
